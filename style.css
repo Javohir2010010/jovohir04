@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0cfe0;
+    margin: 0;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    gap: 20px;
+}
+.box {
+    background-color: #8a2be2;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.small-box {
+    background-color: #ff8c00;
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+}
+.column {
+    flex-direction: column;
+}
+.right {
+    justify-content: flex-end;
+}
+.bottom {
+    align-items: flex-end;
+}
